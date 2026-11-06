@@ -20,13 +20,13 @@ export const ORIENT_COMMANDS = {
   timer2h: 0x15,
   timer4h: 0x0e,
   timer6h: 0x16,
+  timer8h: 0x11,
+  boost: 0x0f,
   light: 0x13,
 } as const;
 
 /** Also in that profile, but not wired to a button in this app yet. */
 export const ORIENT_EXTRA_COMMANDS = {
-  timer8h: 0x11,
-  boost: 0x0f,
   speedCenter: 0x03,
 } as const;
 
