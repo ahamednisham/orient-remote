@@ -36,7 +36,7 @@ export default function RemoteScreen() {
   return (
     <SafeAreaView style={styles.screen} edges={['top', 'bottom']}>
       <View style={styles.header}>
-        <Text style={styles.title}>Orient fan</Text>
+        <Text style={styles.title}>Orient Fan Remote</Text>
         <View style={styles.irStatus} accessibilityLabel={remote.sending ? 'Sending' : undefined}>
           <View
             style={[
